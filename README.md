@@ -16,7 +16,7 @@ It is a card game project source code for a Computer Programming course in Ca'Fo
   1. Shuffle the deck.
   2. Deal each player 2 cards: one face down and one face up.
   3. Randomly choose the first player of the phase.
-5.Progress of the Phase
+5. Progress of the Phase
   The phase takes place by giving each player a turn. Starting from the first player, in ascending ring
   order, the player in the turn:
   1. must resolve the effect of the face-up card (see card effect).
@@ -30,7 +30,7 @@ It is a card game project source code for a Computer Programming course in Ca'Fo
   – If the first player is P1, the phase will follow the turns P1 → P2 → P3
   – If the first player is P2, the phase will follow the turns P2 → P3 → P1
   – If the first player is P3, the phase will follow the turns P3 → P1 → P2
-6 Card Effect
+6. Card Effect
   • Cards from 2 to 6: no effects.
   • Card 7: the player who holds this card (face-up) forces the next player to reveal the face-down
     card and apply its effect.
@@ -42,6 +42,6 @@ It is a card game project source code for a Computer Programming course in Ca'Fo
     ones if they have not been claimed).
   • Card K: the player who holds this card (face-up) must claim all the life points dropped until
     that time on the playing field.
-7 End of the Game
+7. End of the Game
 The game ends when only one player remains at the end of a phase and the others have all been
 eliminated from the game
